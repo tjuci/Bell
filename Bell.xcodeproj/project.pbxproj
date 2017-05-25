@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49AAD3D71ED6B91F00C7163E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3D61ED6B91F00C7163E /* main.m */; };
+		49AAD3DA1ED6B91F00C7163E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3D91ED6B91F00C7163E /* AppDelegate.m */; };
+		49AAD3DD1ED6B91F00C7163E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3DC1ED6B91F00C7163E /* ViewController.m */; };
+		49AAD3E01ED6B91F00C7163E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AAD3DE1ED6B91F00C7163E /* Main.storyboard */; };
+		49AAD3E21ED6B91F00C7163E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AAD3E11ED6B91F00C7163E /* Assets.xcassets */; };
+		49AAD3E51ED6B91F00C7163E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AAD3E31ED6B91F00C7163E /* LaunchScreen.storyboard */; };
+		49AAD3F01ED6B91F00C7163E /* BellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3EF1ED6B91F00C7163E /* BellTests.m */; };
+		49AAD3FB1ED6B91F00C7163E /* BellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3FA1ED6B91F00C7163E /* BellUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49AAD3EC1ED6B91F00C7163E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49AAD3CA1ED6B91F00C7163E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49AAD3D11ED6B91F00C7163E;
+			remoteInfo = Bell;
+		};
+		49AAD3F71ED6B91F00C7163E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49AAD3CA1ED6B91F00C7163E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49AAD3D11ED6B91F00C7163E;
+			remoteInfo = Bell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49AAD3D21ED6B91F00C7163E /* Bell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AAD3D61ED6B91F00C7163E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49AAD3D81ED6B91F00C7163E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49AAD3D91ED6B91F00C7163E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49AAD3DB1ED6B91F00C7163E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49AAD3DC1ED6B91F00C7163E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49AAD3DF1ED6B91F00C7163E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49AAD3E11ED6B91F00C7163E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49AAD3E41ED6B91F00C7163E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49AAD3E61ED6B91F00C7163E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49AAD3EB1ED6B91F00C7163E /* BellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AAD3EF1ED6B91F00C7163E /* BellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BellTests.m; sourceTree = "<group>"; };
+		49AAD3F11ED6B91F00C7163E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49AAD3F61ED6B91F00C7163E /* BellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AAD3FA1ED6B91F00C7163E /* BellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BellUITests.m; sourceTree = "<group>"; };
+		49AAD3FC1ED6B91F00C7163E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49AAD3CF1ED6B91F00C7163E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AAD3E81ED6B91F00C7163E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AAD3F31ED6B91F00C7163E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49AAD3C91ED6B91F00C7163E = {
+			isa = PBXGroup;
+			children = (
+				49AAD3D41ED6B91F00C7163E /* Bell */,
+				49AAD3EE1ED6B91F00C7163E /* BellTests */,
+				49AAD3F91ED6B91F00C7163E /* BellUITests */,
+				49AAD3D31ED6B91F00C7163E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49AAD3D31ED6B91F00C7163E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49AAD3D21ED6B91F00C7163E /* Bell.app */,
+				49AAD3EB1ED6B91F00C7163E /* BellTests.xctest */,
+				49AAD3F61ED6B91F00C7163E /* BellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49AAD3D41ED6B91F00C7163E /* Bell */ = {
+			isa = PBXGroup;
+			children = (
+				49AAD3D81ED6B91F00C7163E /* AppDelegate.h */,
+				49AAD3D91ED6B91F00C7163E /* AppDelegate.m */,
+				49AAD3DB1ED6B91F00C7163E /* ViewController.h */,
+				49AAD3DC1ED6B91F00C7163E /* ViewController.m */,
+				49AAD3DE1ED6B91F00C7163E /* Main.storyboard */,
+				49AAD3E11ED6B91F00C7163E /* Assets.xcassets */,
+				49AAD3E31ED6B91F00C7163E /* LaunchScreen.storyboard */,
+				49AAD3E61ED6B91F00C7163E /* Info.plist */,
+				49AAD3D51ED6B91F00C7163E /* Supporting Files */,
+			);
+			path = Bell;
+			sourceTree = "<group>";
+		};
+		49AAD3D51ED6B91F00C7163E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49AAD3D61ED6B91F00C7163E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49AAD3EE1ED6B91F00C7163E /* BellTests */ = {
+			isa = PBXGroup;
+			children = (
+				49AAD3EF1ED6B91F00C7163E /* BellTests.m */,
+				49AAD3F11ED6B91F00C7163E /* Info.plist */,
+			);
+			path = BellTests;
+			sourceTree = "<group>";
+		};
+		49AAD3F91ED6B91F00C7163E /* BellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49AAD3FA1ED6B91F00C7163E /* BellUITests.m */,
+				49AAD3FC1ED6B91F00C7163E /* Info.plist */,
+			);
+			path = BellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49AAD3D11ED6B91F00C7163E /* Bell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49AAD3FF1ED6B91F00C7163E /* Build configuration list for PBXNativeTarget "Bell" */;
+			buildPhases = (
+				49AAD3CE1ED6B91F00C7163E /* Sources */,
+				49AAD3CF1ED6B91F00C7163E /* Frameworks */,
+				49AAD3D01ED6B91F00C7163E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bell;
+			productName = Bell;
+			productReference = 49AAD3D21ED6B91F00C7163E /* Bell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49AAD3EA1ED6B91F00C7163E /* BellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49AAD4021ED6B91F00C7163E /* Build configuration list for PBXNativeTarget "BellTests" */;
+			buildPhases = (
+				49AAD3E71ED6B91F00C7163E /* Sources */,
+				49AAD3E81ED6B91F00C7163E /* Frameworks */,
+				49AAD3E91ED6B91F00C7163E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49AAD3ED1ED6B91F00C7163E /* PBXTargetDependency */,
+			);
+			name = BellTests;
+			productName = BellTests;
+			productReference = 49AAD3EB1ED6B91F00C7163E /* BellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49AAD3F51ED6B91F00C7163E /* BellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49AAD4051ED6B91F00C7163E /* Build configuration list for PBXNativeTarget "BellUITests" */;
+			buildPhases = (
+				49AAD3F21ED6B91F00C7163E /* Sources */,
+				49AAD3F31ED6B91F00C7163E /* Frameworks */,
+				49AAD3F41ED6B91F00C7163E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49AAD3F81ED6B91F00C7163E /* PBXTargetDependency */,
+			);
+			name = BellUITests;
+			productName = BellUITests;
+			productReference = 49AAD3F61ED6B91F00C7163E /* BellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49AAD3CA1ED6B91F00C7163E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SITRI;
+				TargetAttributes = {
+					49AAD3D11ED6B91F00C7163E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UQ4U5WR7G7;
+						ProvisioningStyle = Automatic;
+					};
+					49AAD3EA1ED6B91F00C7163E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UQ4U5WR7G7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49AAD3D11ED6B91F00C7163E;
+					};
+					49AAD3F51ED6B91F00C7163E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UQ4U5WR7G7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49AAD3D11ED6B91F00C7163E;
+					};
+				};
+			};
+			buildConfigurationList = 49AAD3CD1ED6B91F00C7163E /* Build configuration list for PBXProject "Bell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49AAD3C91ED6B91F00C7163E;
+			productRefGroup = 49AAD3D31ED6B91F00C7163E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49AAD3D11ED6B91F00C7163E /* Bell */,
+				49AAD3EA1ED6B91F00C7163E /* BellTests */,
+				49AAD3F51ED6B91F00C7163E /* BellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49AAD3D01ED6B91F00C7163E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AAD3E51ED6B91F00C7163E /* LaunchScreen.storyboard in Resources */,
+				49AAD3E21ED6B91F00C7163E /* Assets.xcassets in Resources */,
+				49AAD3E01ED6B91F00C7163E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AAD3E91ED6B91F00C7163E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AAD3F41ED6B91F00C7163E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49AAD3CE1ED6B91F00C7163E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AAD3DD1ED6B91F00C7163E /* ViewController.m in Sources */,
+				49AAD3DA1ED6B91F00C7163E /* AppDelegate.m in Sources */,
+				49AAD3D71ED6B91F00C7163E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AAD3E71ED6B91F00C7163E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AAD3F01ED6B91F00C7163E /* BellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AAD3F21ED6B91F00C7163E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AAD3FB1ED6B91F00C7163E /* BellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49AAD3ED1ED6B91F00C7163E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49AAD3D11ED6B91F00C7163E /* Bell */;
+			targetProxy = 49AAD3EC1ED6B91F00C7163E /* PBXContainerItemProxy */;
+		};
+		49AAD3F81ED6B91F00C7163E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49AAD3D11ED6B91F00C7163E /* Bell */;
+			targetProxy = 49AAD3F71ED6B91F00C7163E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49AAD3DE1ED6B91F00C7163E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49AAD3DF1ED6B91F00C7163E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49AAD3E31ED6B91F00C7163E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49AAD3E41ED6B91F00C7163E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49AAD3FD1ED6B91F00C7163E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49AAD3FE1ED6B91F00C7163E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49AAD4001ED6B91F00C7163E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UQ4U5WR7G7;
+				INFOPLIST_FILE = Bell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitri.Bell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49AAD4011ED6B91F00C7163E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UQ4U5WR7G7;
+				INFOPLIST_FILE = Bell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitri.Bell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49AAD4031ED6B91F00C7163E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UQ4U5WR7G7;
+				INFOPLIST_FILE = BellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitri.BellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bell.app/Bell";
+			};
+			name = Debug;
+		};
+		49AAD4041ED6B91F00C7163E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UQ4U5WR7G7;
+				INFOPLIST_FILE = BellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitri.BellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bell.app/Bell";
+			};
+			name = Release;
+		};
+		49AAD4061ED6B91F00C7163E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UQ4U5WR7G7;
+				INFOPLIST_FILE = BellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitri.BellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Bell;
+			};
+			name = Debug;
+		};
+		49AAD4071ED6B91F00C7163E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UQ4U5WR7G7;
+				INFOPLIST_FILE = BellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitri.BellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Bell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49AAD3CD1ED6B91F00C7163E /* Build configuration list for PBXProject "Bell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AAD3FD1ED6B91F00C7163E /* Debug */,
+				49AAD3FE1ED6B91F00C7163E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49AAD3FF1ED6B91F00C7163E /* Build configuration list for PBXNativeTarget "Bell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AAD4001ED6B91F00C7163E /* Debug */,
+				49AAD4011ED6B91F00C7163E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49AAD4021ED6B91F00C7163E /* Build configuration list for PBXNativeTarget "BellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AAD4031ED6B91F00C7163E /* Debug */,
+				49AAD4041ED6B91F00C7163E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49AAD4051ED6B91F00C7163E /* Build configuration list for PBXNativeTarget "BellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AAD4061ED6B91F00C7163E /* Debug */,
+				49AAD4071ED6B91F00C7163E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49AAD3CA1ED6B91F00C7163E /* Project object */;
+}

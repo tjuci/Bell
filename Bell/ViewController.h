@@ -1,0 +1,15 @@
+//
+//  ViewController.h
+//  Bell
+//
+//  Created by Andrew-mac on 2017/5/25.
+//  Copyright © 2017年 SITRI. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController
+
+
+@end
+
