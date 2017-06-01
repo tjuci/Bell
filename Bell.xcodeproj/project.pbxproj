@@ -15,6 +15,8 @@
 		49AAD3E51ED6B91F00C7163E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AAD3E31ED6B91F00C7163E /* LaunchScreen.storyboard */; };
 		49AAD3F01ED6B91F00C7163E /* BellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3EF1ED6B91F00C7163E /* BellTests.m */; };
 		49AAD3FB1ED6B91F00C7163E /* BellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3FA1ED6B91F00C7163E /* BellUITests.m */; };
+		49AAD40B1EDEA75A00C7163E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD40A1EDEA75A00C7163E /* DetailViewController.m */; };
+		B58AB103BA56B38233CE3C14 /* Pods_Bell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B52C612B71B21953325D9D /* Pods_Bell.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27B52C612B71B21953325D9D /* Pods_Bell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AAD3D21ED6B91F00C7163E /* Bell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AAD3D61ED6B91F00C7163E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49AAD3D81ED6B91F00C7163E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		49AAD3F61ED6B91F00C7163E /* BellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AAD3FA1ED6B91F00C7163E /* BellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BellUITests.m; sourceTree = "<group>"; };
 		49AAD3FC1ED6B91F00C7163E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49AAD4081ED8179D00C7163E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		49AAD4091EDEA75A00C7163E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		49AAD40A1EDEA75A00C7163E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A1BB1F8214040311DB843AD4 /* Pods-Bell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bell.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bell/Pods-Bell.release.xcconfig"; sourceTree = "<group>"; };
+		F2B7CE56FA81C3203A2293A7 /* Pods-Bell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bell/Pods-Bell.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58AB103BA56B38233CE3C14 /* Pods_Bell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,8 @@
 				49AAD3EE1ED6B91F00C7163E /* BellTests */,
 				49AAD3F91ED6B91F00C7163E /* BellUITests */,
 				49AAD3D31ED6B91F00C7163E /* Products */,
+				D822AAF08302B14FA70CA316 /* Pods */,
+				A8747D02C9D65075360A27A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,10 +116,13 @@
 				49AAD3D91ED6B91F00C7163E /* AppDelegate.m */,
 				49AAD3DB1ED6B91F00C7163E /* ViewController.h */,
 				49AAD3DC1ED6B91F00C7163E /* ViewController.m */,
+				49AAD4091EDEA75A00C7163E /* DetailViewController.h */,
+				49AAD40A1EDEA75A00C7163E /* DetailViewController.m */,
 				49AAD3DE1ED6B91F00C7163E /* Main.storyboard */,
 				49AAD3E11ED6B91F00C7163E /* Assets.xcassets */,
 				49AAD3E31ED6B91F00C7163E /* LaunchScreen.storyboard */,
 				49AAD3E61ED6B91F00C7163E /* Info.plist */,
+				49AAD4081ED8179D00C7163E /* PrefixHeader.pch */,
 				49AAD3D51ED6B91F00C7163E /* Supporting Files */,
 			);
 			path = Bell;
@@ -140,6 +154,23 @@
 			path = BellUITests;
 			sourceTree = "<group>";
 		};
+		A8747D02C9D65075360A27A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27B52C612B71B21953325D9D /* Pods_Bell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D822AAF08302B14FA70CA316 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2B7CE56FA81C3203A2293A7 /* Pods-Bell.debug.xcconfig */,
+				A1BB1F8214040311DB843AD4 /* Pods-Bell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49AAD3FF1ED6B91F00C7163E /* Build configuration list for PBXNativeTarget "Bell" */;
 			buildPhases = (
+				CC8384F596387737AB24276D /* [CP] Check Pods Manifest.lock */,
 				49AAD3CE1ED6B91F00C7163E /* Sources */,
 				49AAD3CF1ED6B91F00C7163E /* Frameworks */,
 				49AAD3D01ED6B91F00C7163E /* Resources */,
+				634E850381415EBDFF1ADFCC /* [CP] Embed Pods Frameworks */,
+				88E39322463CC02F8D1E01AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,6 +305,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		634E850381415EBDFF1ADFCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bell/Pods-Bell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88E39322463CC02F8D1E01AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bell/Pods-Bell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC8384F596387737AB24276D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49AAD3CE1ED6B91F00C7163E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -279,6 +361,7 @@
 				49AAD3DD1ED6B91F00C7163E /* ViewController.m in Sources */,
 				49AAD3DA1ED6B91F00C7163E /* AppDelegate.m in Sources */,
 				49AAD3D71ED6B91F00C7163E /* main.m in Sources */,
+				49AAD40B1EDEA75A00C7163E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,9 +510,12 @@
 		};
 		49AAD4001ED6B91F00C7163E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B7CE56FA81C3203A2293A7 /* Pods-Bell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UQ4U5WR7G7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Bell/PrefixHeader.pch";
 				INFOPLIST_FILE = Bell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sitri.Bell;
@@ -439,9 +525,12 @@
 		};
 		49AAD4011ED6B91F00C7163E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BB1F8214040311DB843AD4 /* Pods-Bell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UQ4U5WR7G7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Bell/PrefixHeader.pch";
 				INFOPLIST_FILE = Bell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sitri.Bell;
@@ -518,6 +607,7 @@
 				49AAD4011ED6B91F00C7163E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49AAD4021ED6B91F00C7163E /* Build configuration list for PBXNativeTarget "BellTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +616,7 @@
 				49AAD4041ED6B91F00C7163E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49AAD4051ED6B91F00C7163E /* Build configuration list for PBXNativeTarget "BellUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +625,7 @@
 				49AAD4071ED6B91F00C7163E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
