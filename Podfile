@@ -10,7 +10,6 @@ target 'Bell' do
   pod 'MBProgressHUD', '~> 1.0.0'
   pod 'MJRefresh', '~> 3.1.12'
   pod 'FMDB/SQLCipher'
-  pod 'Aspects', '~> 1.4.1'
   pod 'IQKeyboardManager', '~> 4.0.8'
   pod 'DZNEmptyDataSet', '~> 1.8.1'
   pod 'YYCategories', '~> 1.0.4'

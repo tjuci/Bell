@@ -53,10 +53,7 @@
 }
 
 - (void)timerAction {
-    //    NSLog(@"timeraction");
-    //    dispatch_async(dispatch_get_main_queue(), ^{
     DDLogDebug(@"%@ log",@"timer action");
-    //    });
 }
 
 /*
